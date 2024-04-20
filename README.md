@@ -1,7 +1,7 @@
 
 # Virtual Memory Management
 
-## Project Overview
+## Overview
 
 This project presents an advanced simulation of a Virtual Memory Manager (VMM) as part of an operating system's memory management subsystem. The simulation meticulously models the intricate processes involved in virtual-to-physical address translation, page replacement, and memory operations handling multiple processes. It is designed as a robust educational tool for students and professionals interested in deepening their understanding of operating systems, particularly in how they manage memory resources efficiently when faced with hardware constraints.
 
@@ -12,6 +12,9 @@ This project presents an advanced simulation of a Virtual Memory Manager (VMM) a
 - **Diverse Page Replacement Algorithms:** Implements a range of algorithms from simple FIFO to more complex ones like Aging and Working Set, providing a comparative understanding of their efficiency in different scenarios.
 - **Dynamic Memory Allocation:** Demonstrates the allocation and deallocation of memory across various processes, reflecting real-world operating system behavior.
 - **Detailed Simulation Outputs:** Generates detailed logs and output metrics that can be used for in-depth analysis and academic reporting.
+
+![image](https://github.com/tarun2001sharma/Virtual-Memory-Management/assets/59308544/fde05f51-630a-48c7-864f-b1de91b14384)
+
 
 ## Objectives
 
