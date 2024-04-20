@@ -1,5 +1,5 @@
 
-# Advanced Virtual Memory Management Simulation
+# Virtual Memory Management
 
 ## Project Overview
 
