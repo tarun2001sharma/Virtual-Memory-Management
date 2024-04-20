@@ -66,19 +66,27 @@ Run the simulation with the following command structure:
 
 `<num_frames>` specifies the number of physical frames available, `<algo>` denotes the page replacement algorithm, and `<options>` can be used to generate detailed outputs for debugging or analysis.
 
+workings of an operating system's memory management subsystem.
+
+## Input Format
+
+The simulation initializes based on a structured input format that defines the memory management scenarios for multiple processes:
+
+- **Number of Processes:** The first line of the input specifies the total number of processes.
+- **Virtual Memory Areas (VMAs):** For each process, the VMAs are specified, which include:
+  - **Start and end virtual page:** The range of virtual pages covered by this VMA.
+  - **Write protection (0 or 1):** Whether the pages are write-protected.
+  - **File-mapped (0 or 1):** Whether the pages are backed by a file.
+
+This input format is critical for setting up the simulation environment, ensuring each process and its memory requirements are accurately represented.
+
+
 ## Simulation Output and Analysis
 
 The output from the simulation includes per-process memory operation metrics, state of the page and frame tables, and detailed statistics that track the effectiveness of different memory management strategies. These outputs are crucial for:
 - Analyzing the behavior of different page replacement algorithms.
 - Understanding the impact of memory management on process performance.
 - Developing strategies for optimizing memory usage in operating systems.
-
-## Conclusion
-
-This project serves as a comprehensive platform for exploring and understanding the critical functions of virtual memory management in operating systems. It offers valuable insights into the challenges and solutions in efficient memory management, making it an ideal educational resource for advanced learners and professionals.
-
-## License
-This project is open-sourced under the MIT License. See the `LICENSE` file for more details.
 
 ## Detailed Simulation Output Explanation
 
@@ -140,3 +148,7 @@ Finally, a summary of the total cost of operations in terms of cycles might be d
 
 ### Conclusion
 The detailed outputs from the simulation provide deep insights into how virtual memory management operates under various conditions and algorithms. These outputs are invaluable for debugging, performance tuning, and educational purposes, offering a clear view of the inner workings of an operating system's memory management subsystem.
+
+## License
+This project is open-sourced under the MIT License. See the `LICENSE` file for more details.
+
